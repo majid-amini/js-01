@@ -6,6 +6,10 @@
 html {
     font-size: 62.5%;
 }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+  }
 main {
     display: flex;
     justify-content: space-around;
@@ -39,6 +43,9 @@ input[type='submit'] {
     border-radius: 0.5rem;
     color: #fff;
     cursor: pointer;
+}
+.section_left {
+    width: 30%;
 }
 .section_right {
     width: 60%;
